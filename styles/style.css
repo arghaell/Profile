@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+  --cor-primaria: #fff4e0;
+  --cor-secundaria: #4d4d4d;
+  --cor-terciaria: #b46060;
+  --cor-hover: #ffbf9b;
+
+  --fonte-primaria: "Krona One", sans-serif;
+  --font-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+.about {
+  padding: 3% 5% 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.about__conteudo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about__conteudo__titulo {
+  font-size: 2.25rem;
+  font-family: var(--fonte-primaria);
+}
+
+.about__conteudo__titulo:hover {
+  color: #b46060;
+}
+
+.texto-destaque {
+  color: var(--cor-terciaria);
+}
+
+.about__conteudo__texto {
+  font-size: 1.5rem;
+  font-family: var(--font-secundaria);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+
+.links__navegacao {
+  background-color: var(--cor-primaria);
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid var(--cor-terciaria);
+  border-color: var(--cor-terciaria);
+  color: var(--cor-terciaria);
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+  padding: 21.5px 0px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font-secundaria);
+}
+.links__navegacao:hover {
+  background-color: var(--cor-hover);
+}
+
+.conteudo__lista {
+  font-family: var(--font-secundaria);
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.about__imagem {
+  width: 50%;
+  max-width: 600px;
+}
+.rodape {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 18px 0;
+  text-align: center;
+  font-family: var(--font-secundaria);
+  font-size: 1.125rem;
+  font-weight: 400;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+
+  .about__conteudo {
+    width: auto;
+  }
+  .about__imagem {
+    flex-direction: column-reverse;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .rodape {
+    position: relative;
+  }
+}
