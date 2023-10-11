@@ -106,7 +106,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1028px) {
   .about {
     flex-direction: column-reverse;
     padding: 5%;
