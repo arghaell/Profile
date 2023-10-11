@@ -131,4 +131,9 @@ body {
   .links__navegacao {
     padding: 0.75em 0.75em;
   }
+
+  .imagem {
+    width: 50%;
+    height: 50%;
+  }
 }
