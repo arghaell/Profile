@@ -89,7 +89,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem;
 }
-.about__imagem {
+.imagem {
   width: 50%;
   max-width: 600px;
 }
@@ -106,7 +106,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .about {
     flex-direction: column-reverse;
     padding: 5%;
@@ -115,7 +115,7 @@ body {
   .about__conteudo {
     width: auto;
   }
-  .about__imagem {
+  .imagem {
     flex-direction: column-reverse;
   }
 
@@ -125,5 +125,10 @@ body {
 
   .rodape {
     position: relative;
+  }
+}
+@media (max-width: 480px) {
+  .links__navegacao {
+    padding: 0.75em 0.75em;
   }
 }
