@@ -1,0 +1,137 @@
+.contato {
+  padding: 1em 0 1em 0;
+
+  align-content: center;
+  align-items: center;
+}
+
+.assuntoEmail {
+  margin-left: 1em;
+  width: 430px;
+}
+
+.textoEmail {
+  width: 508px;
+  height: 250px;
+}
+
+.imagem__contato {
+  max-width: 50%;
+  text-align: center;
+  margin-right: 8em;
+}
+
+.emailContato {
+  width: 173px;
+  margin-left: 2em;
+}
+
+.nomeContato {
+  margin-left: 2em;
+}
+
+.telefoneContato {
+  margin-left: 0.7em;
+}
+
+.about__conteudo__contato__titulo {
+  padding: 0 0 0.5em 0;
+  font-size: 2.25rem;
+  font-family: var(--fonte-primaria);
+}
+
+.about__conteudo__contato__titulo:hover {
+  color: #b46060;
+}
+
+.arquivo__contato {
+  margin-bottom: 2em;
+}
+
+.btn__contato {
+  background-color: var(--cor-primaria);
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid var(--cor-terciaria);
+  border-color: var(--cor-terciaria);
+  color: var(--cor-terciaria);
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+  padding: 21.5px 0px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font-secundaria);
+}
+.btn__contato:hover {
+  background-color: var(--cor-terciaria);
+  color: white;
+}
+
+.about__contato {
+  padding: 2% 5% 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.rodape__contato {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 18px 0;
+  text-align: center;
+  font-family: var(--font-secundaria);
+  font-size: 1.125rem;
+  font-weight: 400;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 1028px) {
+  .about__contato {
+    padding: 5%;
+    width: auto;
+    display: block;
+    height: 650px;
+  }
+
+  .imagem__contato {
+    visibility: hidden;
+  }
+
+  .rodape__contato {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .assuntoEmail {
+    margin-left: 1em;
+    width: 49%;
+  }
+
+  .textoEmail {
+    width: 90%;
+    height: 200px;
+  }
+
+  .about__conteudo__contato__titulo {
+    padding: 0 0 0.5em 0;
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+  }
+
+  .about__conteudo__contato__texto {
+    font-size: 1rem;
+    font-family: var(--font-secundaria);
+  }
+  @media (max-width: 480px) {
+    .about__contato {
+      padding: 5% 5% 0 5%;
+      width: 90%;
+    }
+  }
+}

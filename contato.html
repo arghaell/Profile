@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/contato.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+      </nav>
+    </header>
+    <main class="about__contato">
+      <section class="about__conteudo__contato">
+        <h1 class="about__conteudo__contato__titulo">Entre em contato!</h1>
+        <p class="about__conteudo__contato__texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus
+          odit ab vero totam modi dolorum aut blanditiis ipsum expedita,
+          deleniti eveniet itaque! Libero ducimus officia exercitationem rem
+          quisquam unde!
+        </p>
+        <div class="contato">
+          <form method="post" action=https://652d5ac0f9afa8ef4b275098.mockapi.io/api/v1/Contato>
+
+          <label for="name">Nome:</label>
+          <input type="
+          text" id="name" name="username"  placeholder="Digite seu nome" class="nomeContato" required >
+          <br /><br />
+
+          <label for="telefone" >Telefone:</label>
+          <input type="tel" minlength="11" id="telefone" name="telefone"  placeholder="Seu melhor número" class="telefoneContato" required >
+          <br /><br />
+          
+          <label for="email">Email:</label>
+          <input type="string" id="email" name="email" class="emailContato" placeholder="Digite aqui seu melhor e-mail" required><br /><br />
+          
+          <label for="assunto">Assunto:</label>
+          <input type="
+          text" id="assunto" name="assunto" class="assuntoEmail" required><br /><br />
+
+          
+          <label for="texto"></label>
+          <textarea type="textarea" id="texto" name="texto" class="textoEmail" required></textarea>
+          <br /><br />
+
+          <label for="file"></label>
+          <input type="file" id="file" class="arquivo__contato" name="file">
+
+          <input type="submit" value="Enviar" class="btn__contato"></input>
+        </form>
+        </div>
+      </section>
+      <img class="imagem__contato" src="./assets/contato.png" alt="">
+      <!-- <img class="about__imagem" src="./assets/imgalt.jpg" /> -->
+    </main>
+    <footer>
+      <p class="rodape__contato">Raphael Argollo | @2023</p>
+    </footer>
+  </body>
+</html>
